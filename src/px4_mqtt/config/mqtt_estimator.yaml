@@ -1,0 +1,27 @@
+# MQTT Estimator Configuration
+# This file contains configuration parameters for the mqtt_estimator node
+
+mqtt_estimator:
+  ros__parameters:
+    # UAV identification
+    # Name/ID of the UAV (used in MQTT topic and client ID)
+    uav_name: "uav1"
+    
+    # MQTT broker configuration
+    # Broker address in format: tcp://host:port or mqtt://host:port
+    # Note: mqtt:// will be automatically converted to tcp://
+    mqtt_broker: "tcp://118.195.156.74:5704"
+    
+    # MQTT authentication
+    # Username for MQTT broker authentication (leave empty if no auth required)
+    mqtt_username: "uav1"
+    
+    # Password for MQTT broker authentication (leave empty if no auth required)
+    mqtt_password: "Aa123456."
+    
+    # MQTT topic configuration
+    # Topic prefix for state messages. Final topic will be: {mqtt_state_topic}{uav_name}
+    # Example: if mqtt_state_topic is "uavcontrol/state/" and uav_name is "uav1",
+    #          the final topic will be "uavcontrol/state/uav1"
+    mqtt_state_topic: "uavcontrol/state/"
+

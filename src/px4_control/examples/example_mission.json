@@ -1,0 +1,65 @@
+{
+  "waypoints": [
+    {
+      "frame": 3,
+      "command": 16,
+      "lat": 47.397742,
+      "lon": 8.545594,
+      "alt": 5.0,
+      "param1": 0.0,
+      "param2": 1.0,
+      "param3": 0.0,
+      "param4": 0.0,
+      "description": "Waypoint 1 - Start position"
+    },
+    {
+      "frame": 3,
+      "command": 16,
+      "lat": 47.397842,
+      "lon": 8.545594,
+      "alt": 5.0,
+      "param1": 0.0,
+      "param2": 1.0,
+      "param3": 0.0,
+      "param4": 0.0,
+      "description": "Waypoint 2 - North"
+    },
+    {
+      "frame": 3,
+      "command": 16,
+      "lat": 47.397842,
+      "lon": 8.545694,
+      "alt": 5.0,
+      "param1": 0.0,
+      "param2": 1.0,
+      "param3": 0.0,
+      "param4": 0.0,
+      "description": "Waypoint 3 - Northeast"
+    },
+    {
+      "frame": 3,
+      "command": 16,
+      "lat": 47.397742,
+      "lon": 8.545694,
+      "alt": 5.0,
+      "param1": 0.0,
+      "param2": 1.0,
+      "param3": 0.0,
+      "param4": 0.0,
+      "description": "Waypoint 4 - East"
+    },
+    {
+      "frame": 3,
+      "command": 16,
+      "lat": 47.397742,
+      "lon": 8.545594,
+      "alt": 5.0,
+      "param1": 0.0,
+      "param2": 1.0,
+      "param3": 0.0,
+      "param4": 0.0,
+      "description": "Waypoint 5 - Return to start"
+    }
+  ]
+}
+
